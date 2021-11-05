@@ -9491,3 +9491,12 @@ label:hover:before {
     line-height: 3px;
 }
 
+.slick-next {
+    right: 0 !important;
+    z-index: 999 !important;
+    background-color: aqua !important;
+}
+.slick-next:hover {
+    right: 0;
+    background-color: aqua;
+}
