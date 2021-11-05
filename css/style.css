@@ -9393,7 +9393,6 @@ label:hover:before {
      float: right;
  }
 
-
 .flickity-page-dots{
     display: none;
 }
@@ -9405,13 +9404,41 @@ label:hover:before {
 }
 
 .filterButtons button{
-    font-size: 36px;
+    font-size: 22px;
+    line-height: 3px;
+    color: #000 !important;
+}
+.filterButtons2{
+    display: grid;
+    width: 20%;
+    float: left;
+}
+
+.filterButtons2 button{
+    font-size: 22px;
+    line-height: 3px;
+    color: #000 !important;
+}
+.filterButtons3{
+    display: grid;
+    width: 20%;
+    float: left;
+}
+
+.filterButtons3 button{
+    font-size: 22px;
     line-height: 3px;
     color: #000 !important;
 }
 
 .flickity-viewport img{
     height: 800px !important;
+}
+.flickity-button {
+    position: absolute;
+    background: transparent !important;
+    border: none;
+    color: #333;
 }
 
 .button.active{
